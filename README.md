@@ -12,5 +12,5 @@ install pip for windows ```https://phoenixnap.com/kb/install-pip-windows```
 
 run install.bat included with requriments.txt and Songaza.py
 ## Using
-run run.bat included or open console in your folder where you have Songoza.py and type ```python Songaza.py```
+run run.bat included or open console in your folder where you have Songoza.py and type ```python Songaza.py``` and follow the instructions
 
