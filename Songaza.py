@@ -166,27 +166,6 @@ def Get_Deezer(song,artist="",api_key="API KEY HERE"):
 
     return chose
 
-
-
-    def __init__(self,song,artist=""):
-        self.song = song
-        self.artist = artist
-        self.Glyrics = ""
-
-    def __enter__(self):
-        genius = lyricsgenius.Genius("hF2XZy0YGBYnEEk2_p61v-HgEjmreKQPtHa2FerpVigRSeoncaop5ZXDdB-ZPhPy")
-        #song = genius.search_song(song,artist)
-        #lyrics = ""
-        #lyrics = song.lyrics
-        
-        self.Glyrics = genius.search_song(self.song,self.artist).lyrics
-    
-    def __str__(self):
-        return self.Glyrics
-
-    def __exit__(self):
-        pass
-
 def Get_Lyrics_Genius(song,artist="",api_key="API KEY HERE"):
     """
     Gets name of song and artist and returns lyrics in string\n
