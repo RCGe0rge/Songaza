@@ -40,25 +40,7 @@ def Search_Url(search_expression,max_results=10):
 
     err = True    
     while err:
-        if inn == 1:
-            err = False
-        elif inn == 2:
-            err = False
-        elif inn == 3:
-            err = False
-        elif inn == 4:
-            err = False
-        elif inn == 5:
-            err = False
-        elif inn == 6:
-            err = False
-        elif inn == 7:
-            err = False
-        elif inn == 8:
-            err = False
-        elif inn == 9:
-            err = False
-        elif inn == 10:
+        if inn >= 1 and inn <= 10:
             err = False
         else:
             print(colored("[!]","red"),end=" ")
@@ -145,15 +127,7 @@ def Get_Deezer(song,artist="",api_key="API KEY HERE"):
 
     err = True    
     while err:
-        if inn == 1:
-            err = False
-        elif inn == 2:
-            err = False
-        elif inn == 3:
-            err = False
-        elif inn == 4:
-            err = False
-        elif inn == 5:
+        if inn >= 1 and inn <= 5:
             err = False
         else:
             print(colored("[!]","red"),end=" ")
